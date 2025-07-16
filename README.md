@@ -1,8 +1,3 @@
-# MNU
-Claro, acá tenés un ejemplo de un README similar pero adaptado a un **sitio web interactivo sobre un Modelo de Naciones Unidas (MUN)**. Lo podés modificar según las características específicas de tu proyecto:
-
----
-
 # 🌐 Modelo Naciones Unidas Interactivo
 
 Una plataforma digital pensada para delegados, organizadores y observadores del Modelo de Naciones Unidas.
