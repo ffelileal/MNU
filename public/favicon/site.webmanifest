@@ -1,0 +1,31 @@
+{
+  "name": "MNU Hernando",
+  "short_name": "MNU Hernando",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#215c5c",
+  "description": "Modelo de Naciones Unidas para Hernando y Región",
+  "icons": [
+    {
+      "src": "favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
