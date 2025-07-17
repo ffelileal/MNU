@@ -1,8 +1,14 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Informacion = () => {
   return (
-    <main>
+    <motion.main
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.4 }}
+    >
       <section className="hero" id="inicio">
         <h1>Modelo de Naciones Unidas para Hernando y Región</h1>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -65,7 +71,7 @@ const Informacion = () => {
           Las mismas serán resueltas en un encuentro virtual sincrónico que tendrá lugar entre el 9 y el 13 de Junio, en horario también a definir.
         </p>
       </div>
-    </main>
+    </motion.main>
   );
 };
 

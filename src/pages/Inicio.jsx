@@ -1,8 +1,14 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Inicio = () => {
   return (
-    <main>
+    <motion.main
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.4 }}
+    >
       {/* Hero Section */}
       <section className="hero" id="inicio">
         <h1>Modelo de Naciones Unidas para Hernando y Región</h1>
@@ -46,7 +52,7 @@ const Inicio = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ac sem nec urna cursus dictum. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat.
         </p>
       </section>
-    </main>
+    </motion.main>
   );
 };
 

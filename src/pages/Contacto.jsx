@@ -1,9 +1,15 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import { motion } from 'framer-motion';
 
 const Contacto = () => {
   return (
-    <main>
+    <motion.main
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.4 }}
+    >
       <section
         id="contacto-principal"
         style={{
@@ -80,11 +86,8 @@ const Contacto = () => {
               }}
             ></textarea>
           </div>
-          {/* Campo honeypot para evitar spam */}
           <input type="text" name="_honey" style={{ display: 'none' }} />
-          {/* Redirección tras enviar */}
           <input type="hidden" name="_next" value="https://tu-dominio.com/contacto/gracias.html" />
-          {/* Desactiva captcha de Formsubmit (opcional) */}
           <input type="hidden" name="_captcha" value="false" />
           <button
             type="submit"
@@ -126,7 +129,6 @@ const Contacto = () => {
               style={{ color: '#215c5c', textDecoration: 'underline' }}
             >
               @example
-              
             </a>
           </div>
           <div>
@@ -135,7 +137,7 @@ const Contacto = () => {
         </div>
       </section>
       <Footer />
-    </main>
+    </motion.main>
   );
 };
 

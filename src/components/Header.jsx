@@ -35,7 +35,7 @@ const Header = () => {
             <li><Link to="/Informacion">Información</Link></li>
             <li><Link to="/Historia">Historia</Link></li>
             <li><Link to="/Modelo">Modelo 2025</Link></li>
-            <li><Link to="/Galeria">Galería</Link></li>
+            <li><Link to="/MapaParticipantes">Paises</Link></li>
             <li><Link to="/Contacto">Contacto</Link></li>
           </ul>
         </nav>

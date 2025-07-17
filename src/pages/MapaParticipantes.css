@@ -1,0 +1,22 @@
+.mapa-container {
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+
+select {
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.leyenda {
+  background: #fff;
+  color: #333;
+  padding: 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
